@@ -104,6 +104,7 @@ header h1 {
 
 header .tagline {
     font-size: 1.3rem;
+    color:white
     opacity: 0.95;
     font-weight: 300;
     position: relative;
