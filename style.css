@@ -8,14 +8,14 @@
 }
 
 :root {
-    --primary-color: #004d99;
-    --primary-dark: #003366;
-    --primary-light: #cce5ff;
-    --text-dark: #1a1a1a;
-    --text-light: #555;
-    --bg-light: #f0f5fa;
-    --border-color: #d0d0d0;
-    --success-color: #2d7a3a;
+    --primary-color: #7a9fb8;
+    --primary-dark: #5a7f98;
+    --primary-light: #e8f0f8;
+    --text-dark: #3d4d5d;
+    --text-light: #6b7d8f;
+    --bg-light: #f5f7fb;
+    --border-color: #d8e0e8;
+    --success-color: #6a9f8a;
     --transition: all 0.3s ease;
 }
 
@@ -64,11 +64,11 @@ p {
    HEADER
    ============================================ */
 header {
-    background: linear-gradient(135deg, var(--primary-dark) 0%, #002244 100%);
+    background: linear-gradient(135deg, var(--primary-dark) 0%, #7a9fb8 100%);
     color: white;
     padding: 80px 20px;
     text-align: center;
-    box-shadow: 0 4px 15px rgba(0, 51, 102, 0.25);
+    box-shadow: 0 4px 15px rgba(90, 127, 152, 0.15);
     position: relative;
     overflow: hidden;
 }
@@ -242,13 +242,13 @@ ul, ol {
    CTA SECTION
    ============================================ */
 .cta-section {
-    background: linear-gradient(135deg, var(--primary-dark) 0%, #002244 100%);
+    background: linear-gradient(135deg, var(--primary-dark) 0%, #7a9fb8 100%);
     color: white;
     padding: 60px 40px;
     border-radius: 12px;
     text-align: center;
     margin: 50px 0;
-    box-shadow: 0 8px 25px rgba(0, 51, 102, 0.35);
+    box-shadow: 0 8px 25px rgba(90, 127, 152, 0.2);
 }
 
 .cta-section h2 {
@@ -284,9 +284,9 @@ ul, ol {
 }
 
 .btn-primary:hover {
-    background: #002244;
+    background: #7a9fb8;
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(0, 51, 102, 0.4);
+    box-shadow: 0 6px 20px rgba(90, 127, 152, 0.3);
 }
 
 .btn-secondary {
@@ -362,8 +362,8 @@ ul, ol {
    FOOTER
    ============================================ */
 footer {
-    background: #1a1a1a;
-    color: #e0e0e0;
+    background: #4a5f70;
+    color: #e8f0f8;
     text-align: center;
     padding: 40px 20px;
     margin-top: 60px;
@@ -371,7 +371,7 @@ footer {
 }
 
 footer p {
-    color: #e0e0e0;
+    color: #e8f0f8;
     margin-bottom: 10px;
 }
 
